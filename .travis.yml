@@ -2,3 +2,9 @@ language: ruby
 rvm:
  - 2.2
  - jruby
+job_log_access_permissions:
+time_based_limit: disabled
+access_based_limit: disabled
+older_than_days: 365
+max_days_value: 730
+min_days_value: 30
